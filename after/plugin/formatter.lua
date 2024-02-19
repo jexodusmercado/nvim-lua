@@ -101,7 +101,6 @@ require("formatter").setup({
 
 		go = {
 			require("formatter.filetypes.go").gofmt,
-			require("formatter.filetypes.go").goimports,
 		},
 
 		-- Use the special "*" filetype for defining formatter configurations on
